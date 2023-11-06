@@ -11,6 +11,10 @@
 		624FED0B2AF99120007DEBB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624FED0A2AF99120007DEBB3 /* ContentView.swift */; };
 		624FED0D2AF99120007DEBB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 624FED0C2AF99120007DEBB3 /* Assets.xcassets */; };
 		624FED102AF99120007DEBB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 624FED0F2AF99120007DEBB3 /* Preview Assets.xcassets */; };
+		BBAF9E442AF9960800FFF4DE /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF9E432AF9960800FFF4DE /* RootView.swift */; };
+		BBAF9E462AF996DB00FFF4DE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF9E452AF996DB00FFF4DE /* SettingsView.swift */; };
+		BBAF9E482AF996E600FFF4DE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF9E472AF996E600FFF4DE /* HomeView.swift */; };
+		BBAF9E4A2AF996EF00FFF4DE /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF9E492AF996EF00FFF4DE /* CalculatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		624FED0A2AF99120007DEBB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		624FED0C2AF99120007DEBB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		624FED0F2AF99120007DEBB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBAF9E432AF9960800FFF4DE /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		BBAF9E452AF996DB00FFF4DE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BBAF9E472AF996E600FFF4DE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BBAF9E492AF996EF00FFF4DE /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				624FED082AF99120007DEBB3 /* TamweelFinanceApp.swift */,
 				624FED0A2AF99120007DEBB3 /* ContentView.swift */,
+				BBAF9E432AF9960800FFF4DE /* RootView.swift */,
+				BBAF9E472AF996E600FFF4DE /* HomeView.swift */,
+				BBAF9E452AF996DB00FFF4DE /* SettingsView.swift */,
+				BBAF9E492AF996EF00FFF4DE /* CalculatorView.swift */,
 				624FED0C2AF99120007DEBB3 /* Assets.xcassets */,
 				624FED0E2AF99120007DEBB3 /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				624FED0B2AF99120007DEBB3 /* ContentView.swift in Sources */,
+				BBAF9E462AF996DB00FFF4DE /* SettingsView.swift in Sources */,
 				624FED092AF99120007DEBB3 /* TamweelFinanceApp.swift in Sources */,
+				BBAF9E482AF996E600FFF4DE /* HomeView.swift in Sources */,
+				BBAF9E4A2AF996EF00FFF4DE /* CalculatorView.swift in Sources */,
+				BBAF9E442AF9960800FFF4DE /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TamweelFinance/Preview Content\"";
+				DEVELOPMENT_TEAM = 8X5MRN523H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -279,12 +296,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tamweel.TamweelFinance;
+				PRODUCT_BUNDLE_IDENTIFIER = Hamza.TamweelFinance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -300,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TamweelFinance/Preview Content\"";
+				DEVELOPMENT_TEAM = 8X5MRN523H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -307,12 +326,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tamweel.TamweelFinance;
+				PRODUCT_BUNDLE_IDENTIFIER = Hamza.TamweelFinance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

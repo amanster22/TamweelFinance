@@ -1,19 +1,20 @@
 //
-//  ContentView.swift
+//  SettingsView.swift
 //  TamweelFinance
 //
-//  Created by Aman Shaik on 11/6/23.
+//  Created by Hamza Alkadir on 11/6/23.
 //
 
+import Foundation
 import SwiftUI
 
-struct ContentView: View {
+struct SettingsView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Settings")
         }
         .padding()
     }
